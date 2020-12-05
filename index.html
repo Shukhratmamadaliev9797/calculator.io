@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="title" data-aos="fade-down">
+        <h1>Online Calculator</h1>
+    </div>
+    <div class="calculator">
+        <input class="screen" id="screen" name="screen" value="0">
+        <div class="buttons">
+            <button class="op-key" id="clear" value="">C</button>
+            <button class="op-key" id="backspace" value="-">&#8592;</button>
+            <button class="op-key" id="sign" op="percent">%</button>
+            <button class="op-key" id="divide" op="divide">&#247;</button>
+            <button class="digits" value="7">7</button>
+            <button class="digits" value="8">8</button>
+            <button class="digits" value="9">9</button>
+            <button class="op-key" id="multiply" op="multiply">x</button>
+            <button class="digits" value="4">4</button>
+            <button class="digits" value="5">5</button>
+            <button class="digits" value="6">6</button>
+            <button class="op-key" id="minus" op="subtract">-</button>
+            <button class="digits" value="1">1</button>
+            <button class="digits" value="2">2</button>
+            <button class="digits" value="3">3</button>
+            <button class="op-key" id="plus" op="add">+</button>
+            <button class="digits" value="0">0</button>
+            <button class="digits" value=".">.</button>
+            <button id="equal" value="=">=</button>  
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="app.js"></script>
+</html>
